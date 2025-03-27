@@ -1,0 +1,41 @@
+
+
+h1{
+    color:white;
+    font-size: 50px;
+    font-family: Verdana;
+    text-align: center;
+    border-style: solid;
+    border-color: gold;
+    border-width: 8px;
+    background-color: greenyellow;
+}
+p{
+    font-size: 21px;
+}
+
+.img{
+    display:inline;
+    width:350px;
+
+}
+.stuff{
+    display:inline-block;
+    background-color: greenyellow;
+    color: white;
+    border-style: solid;
+    border-color: gold;
+    border-width: 8px;
+    flex: 1;
+    padding: 2%;
+    margin-left: 80%;
+    float: right;
+    margin-bottom: 10px;
+    position: absolute;
+}
+
+.stufftwo{
+    display: flex;
+    flex: 1;
+    padding: 2%;
+}
