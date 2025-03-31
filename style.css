@@ -19,8 +19,25 @@ p{
     width:350px;
 
 }
+.container{
+    display: flex;
+}
+
+.stufftwo{
+    display: block;
+    flex: 3;
+    padding: 2%;
+    margin-left: auto;
+}
+.images{
+    display:flex;
+}
 .stuff{
-    display:inline-block;
+    display:block;
+    text-align: left;
+}
+.sidebar{
+    display:inline-block;   
     background-color: greenyellow;
     color: white;
     border-style: solid;
@@ -28,14 +45,6 @@ p{
     border-width: 8px;
     flex: 1;
     padding: 2%;
-    margin-left: 80%;
-    float: right;
-    margin-bottom: 10px;
-    position: absolute;
+   overflow-x: hidden;
 }
 
-.stufftwo{
-    display: flex;
-    flex: 1;
-    padding: 2%;
-}
